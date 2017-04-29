@@ -1,0 +1,19 @@
+/* TEAM */
+
+Author: Joseph Farrell
+Site:
+Twitter: @Pithpifth
+Location: Endicott, NY
+
+
+/* THANKS */
+
+Name: name or url
+
+
+/* SITE */
+
+Last update: 2017/04/29
+Standards: HTML5, CSS3
+Components: MaterializeCSS, jQuery
+Software: Atom, Photoshop CS6
