@@ -5,3 +5,23 @@
 .link:hover {
   color: #072763 !important;
 }
+
+.link:visited {
+
+}
+
+.text_link {
+  color: black;
+}
+
+.text_link:hover {
+  color: #072763;
+}
+
+.text_link:visited {
+
+}
+
+.indented {
+  margin-left: 5em;
+}
