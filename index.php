@@ -48,7 +48,7 @@
                     </ul>
                     <!-- right: main navigation -->
                     <ul class="nav navbar-nav flex-item hidden-xs pull-right">
-                        <li><a href="#">Profile</a></li>
+                        <li><a href="#profile">Profile</a></li>
                         <li><a href="#">Experience</a></li>
                         <li><a href="#">Abilities</a></li>
                         <li><a href="#">Projects</a></li>
@@ -60,7 +60,7 @@
                             <span class="glyphicon glyphicon-align-justify"></span>
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Profile</a></li>
+                            <li><a href="#profile">Profile</a></li>
                             <li><a href="#">Experiences</a></li>
                             <li><a href="#">Projects</a></li>
                             <li role="separator" class="divider"></li>
@@ -72,8 +72,8 @@
         </nav>
     </nav>
     <!--bg img  -->
-    <header>
-        <img src="assets/loz.jpg" style="width:100%">
+    <header class="parallax">
+        <!--<img src="assets/loz.jpg" style="width:100%">-->
         <div class="arrow bounce">
             <span>Scroll Down</span><br/>
             <a class="fa fa-arrow-down fa-2x" href="#"></a>
@@ -81,7 +81,7 @@
     </header>
     <div class="light-tan">
         <br/><br/>
-        <div class="container dark-tan border-rounded">
+        <div id="profile" class="container dark-tan border-rounded">
             <div class="row">
                 <div class="col-sm-12">
                     <h3>Profile</h3>
