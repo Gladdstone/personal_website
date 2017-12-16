@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+a {
+    font-family: "Roboto", sans-serif;
+}
+
+hr {
+    border-color: #292929;
+    margin-top: 0;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 15pt;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+.arrow {
+    font-weight: bold;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.border-rounded {
+    border-radius: 5px;
+    box-shadow: 2.5px 5px #888888;
+}
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+.dark-tan {
+    background: #ffce99;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    margin: 5px 2px;
+    text-align: center;
+    text-decoration: none;
+    width: 50px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: #ffffff;
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: #ffffff;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-item {
+}
+
+/*fontcolor*/
+.light-grey {color:#000!important;background-color:#E6E9ED!important}
+
+.light-tan {
+    background: #ffe6cc;
+}
+
+/*scroll effect*/
+.navbar-trans {
+    background-color: transparent;
+    border: none;
+    transition: top 1s ease;
+}
+
+/*double row*/
+.navbar-doublerow > .navbar{
+    display: block;
+    padding: 0px auto;
+    margin: 0px auto;
+    min-height: 25px;
+}
+.navbar-doublerow .nav{
+    padding: 0px auto;
+}
+.navbar-doublerow .dividline{
+    margin: 5px 100px;
+    padding-top: 1px;
+    background-color: inherit;
+}
+/*top nav*/
+.navbar-doublerow .navbar-top ul>li>a {
+    padding: 10px auto;
+    font-size: 12px;
+}
+/*down nav*/
+.navbar-doublerow .navbar-down .navbar-brand {
+    padding: 0px auto;
+    float: left;
+    color: #fff;
+    font-size: 32px;
+}
+.navbar-doublerow .navbar-down ul>li>a{
+    font-size: 16px;
+    color: #fff;
+    transition: border-bottom .2s ease-in , transform .2s ease-in-out;
+}
+.navbar-doublerow .navbar-down ul>li>a:hover{
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.navbar-doublerow .navbar-down .dropdown{
+    padding: 5px;
+    color: #000;
+}
+.navbar-doublerow .navbar-down .dropdown ul>li>a,
+.navbar-doublerow .navbar-down .dropdown ul>li>a:hover{
+    color: #000;
+    border-bottom: none;
+}
+.navbar-doublerow.navbar-trans.afterscroll {
+}
+.navbar-doublerow.navbar-trans.afterscroll {
+    top:-50px;
+}
+
+.pdlft {
+    padding-left: 10px;
+}
+
+/*text*/
+.text-white,.text-white-hover:hover{color:#fff!important}
+
+.ul {
+    text-decoration: underline;
+}
