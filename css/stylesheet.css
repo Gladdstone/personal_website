@@ -113,19 +113,23 @@ p {
     margin: 0px auto;
     min-height: 25px;
 }
+
 .navbar-doublerow .nav{
     padding: 0px auto;
 }
+
 .navbar-doublerow .dividline{
     margin: 5px 100px;
     padding-top: 1px;
     background-color: inherit;
 }
+
 /*top nav*/
 .navbar-doublerow .navbar-top ul>li>a {
     padding: 10px auto;
     font-size: 12px;
 }
+
 /*down nav*/
 .navbar-doublerow .navbar-down .navbar-brand {
     padding: 0px auto;

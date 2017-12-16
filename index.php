@@ -73,14 +73,15 @@
     </nav>
     <!--bg img  -->
     <header class="parallax">
-        <!--<img src="assets/loz.jpg" style="width:100%">-->
         <div class="arrow bounce">
             <span>Scroll Down</span><br/>
             <a class="fa fa-arrow-down fa-2x" href="#"></a>
         </div>
     </header>
+    <!-- Content -->
     <div class="light-tan">
         <br/><br/>
+        <!-- Profile -->
         <div id="profile" class="container dark-tan border-rounded">
             <div class="row">
                 <div class="col-sm-12">
@@ -116,8 +117,7 @@
         </div>
         <br/><br/>
     </div>
-
-<script src="jquery-3.2.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/scripts.js"></script>
 </body>
