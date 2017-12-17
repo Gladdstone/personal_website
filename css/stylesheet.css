@@ -11,7 +11,6 @@ hr {
 
 html {
     font-family: "Roboto", sans-serif;
-    font-size: 15pt;
 }
 
 h1, h2, h3, h4 {
@@ -20,6 +19,7 @@ h1, h2, h3, h4 {
 
 p {
     font-family: "Roboto", sans-serif;
+    font-size: 12pt;
 }
 
 .arrow {
@@ -44,6 +44,10 @@ p {
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
+}
+
+.centered {
+    text-align: center;
 }
 
 .dark-tan {
