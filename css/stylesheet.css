@@ -171,6 +171,10 @@ p {
     top:-50px;
 }
 
+.nav-hover:hover {
+    background-color: #000000;
+}
+
 .parallax {
     background-image: url("../assets/loz.jpg");
 

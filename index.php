@@ -20,7 +20,7 @@
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-doublerow navbar-trans navbar-fixed-top">
+    <nav id="page-top" class="navbar navbar-default navbar-doublerow navbar-trans navbar-fixed-top">
         <!-- top nav -->
         <nav class="navbar navbar-top hidden-xs">
             <div class="container">
@@ -48,7 +48,7 @@
                     </ul>
                     <!-- right: main navigation -->
                     <ul class="nav navbar-nav flex-item hidden-xs pull-right">
-                        <li><a href="#profile">Profile</a></li>
+                        <li><a class="nav-hover" href="#profile">Profile</a></li>
                         <li><a href="#experiences">Experience</a></li>
                         <li><a href="#">Abilities</a></li>
                         <li><a href="#">Projects</a></li>
@@ -79,9 +79,9 @@
         </div>
     </header>
     <!-- Content -->
+    <!-- Profile -->
     <div class="light-tan">
         <br/><br/>
-        <!-- Profile -->
         <div id="profile" class="container dark-tan border-rounded">
             <div class="row">
                 <div class="col-sm-12">
@@ -126,8 +126,8 @@
         <br/><br/>
     </div>
     <br/><br/>
+    <!-- Experiences -->
     <div>
-        <!-- Experiences -->
         <div id="experiences" class="container dark-tan border-rounded">
             <div class="row">
                 <div class="col-md-4 col-md-offset-4">
@@ -179,6 +179,18 @@
                 </div>
             </div>
             <br/>
+        </div>
+    </div>
+    <br/><br/>
+    <div class="light-tan">
+        <br/><br/>
+        <div id="projects" class="container dark-tan border-rounded">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <h3 class="centered">Projects</h3>
+                    <hr/>
+                </div>
+            </div>
         </div>
     </div>
     <br/><br/>
