@@ -29,6 +29,7 @@
                 </ul>
                 <!-- right nav top: social media -->
                 <ul class="nav navbar-nav pull-right">
+                    <li><a href="https://github.com/Gladdstone" class="fa fa-github"></a></li>
                     <li><a href="https://twitter.com/@Pithpifth" class="fa fa-twitter"></a></li>
                     <li><a href="https://www.facebook.com/joe.farrell.96930?ref=bookmarks" class="fa fa-facebook"></a></li>
                 </ul>
@@ -49,10 +50,10 @@
                     <!-- right: main navigation -->
                     <ul class="nav navbar-nav flex-item hidden-xs pull-right">
                         <li><a class="nav-hover" href="#profile">Profile</a></li>
+                        <li><a href="#abilities">Abilities</a></li>
                         <li><a href="#experiences">Experience</a></li>
-                        <li><a href="#">Abilities</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <!--<li><a href="#">Projects</a></li>-->
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                     <!-- dropdown only moblie -->
                     <div class="dropdown visible-xs pull-right">
@@ -61,10 +62,11 @@
                         </button>
                         <ul class="dropdown-menu">
                             <li><a href="#profile">Profile</a></li>
+                            <li><a href="#abilities">Abilities</a></li>
                             <li><a href="#experiences">Experiences</a></li>
-                            <li><a href="#">Projects</a></li>
+                            <!--<li><a href="#">Projects</a></li>-->
                             <li role="separator" class="divider"></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -126,8 +128,49 @@
         <br/><br/>
     </div>
     <br/><br/>
-    <!-- Experiences -->
+    <!-- Abilities -->
     <div>
+        <div id="abilities" class="container dark-tan border-rounded">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <h3 class="centered">Abilities</h3>
+                    <hr/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-1">
+                    <p class="bold">JavaScript</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-offset-1">
+                    <p class="bold">Front-End Web Development</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-1">
+                    <p class="bold">Java</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-offset-1">
+                    <p class="bold">Python</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
+    <!-- Experiences -->
+    <div class="light-tan">
+        <br/><br/>
         <div id="experiences" class="container dark-tan border-rounded">
             <div class="row">
                 <div class="col-md-4 col-md-offset-4">
@@ -135,6 +178,7 @@
                     <hr/>
                 </div>
             </div>
+            <!-- Education -->
             <div class="row">
                 <div class="col-md-4">
                     <h3>Education</h3>
@@ -179,11 +223,98 @@
                 </div>
             </div>
             <br/>
+            <div class="col-md-8 col-md-offset-2">
+                <hr/>
+            </div>
+            <!-- Career -->
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Career History</h3>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-1">
+                    <p class="bold">Visions Federal Credit Union</p>
+                    <p>December, 2017 - Present</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="bold">Technical Analyst</p>
+                    <p>Focused on maximizing company workflow through identifying points of weakness within existing processes, and designing/developing either better automated or more optimally organized workflows through implementation of new technologies. Conducted design, development, and maintenance on multiple projects, for which the savings per year totals nearly $100,000 for the company. Involved HTML/CSS, JavaScript, jQuery, and PowerOn (a Jack Henry product) as well as performing regular SQL queries on the company’s main database.</p>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-1">
+                    <p class="bold">Visions Federal Credit Union</p>
+                    <p>June, 2015 - December, 2017</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="bold">Security Clerk</p>
+                    <p></p>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-1">
+                    <p class="bold">Lampy's Meditteranean Bar and Grill</p>
+                    <p>February, 2014 - June, 2015</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="bold">Busser</p>
+                    <p></p>
+                </div>
+            </div>
+            <br/><br/>
         </div>
+        <br/><br/>
     </div>
     <br/><br/>
-    <div class="light-tan">
+    <!-- Contact -->
+    <div>
+        <div id="contact" class="container dark-tan border-rounded">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <h3 class="centered">Interested? Contact Me.</h3>
+                    <hr/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2">
+                    <h4>Joseph Farrell</h4>
+                    <br/>
+                    <p><a href="https://twitter.com/@Pithpifth" class="fa fa-twitter"></a> twitter.com/Pithpifth</p>
+                    <p><a href="https://www.facebook.com/joe.farrell.96930?ref=bookmarks" class="fa fa-facebook"></a> Joe Farrell on Facebook</p>
+                    <p><a href="https://github.com/Gladdstone" class="fa fa-github"></a> Gladdstone on Github</p>
+                </div>
+                <div class="col-md-6">
+                    <form action="contact.php">
+                        <div class="row">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="fname" placeholder="Who am I talking to?">
+
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lname">
+                        </div>
+                        <br/><br/>
+                        <div class="row">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="What is this regarding?">
+                        </div>
+                        <br/><br/>
+                        <div class="row">
+                            <label for="message"></label>
+                            <h:inputTextarea type="text" id="message" name="message" placeholder="How can I help your project/company?">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
         <br/><br/>
+    </div>
+    <!-- Projects -->
+    <!--
+    <div>
         <div id="projects" class="container dark-tan border-rounded">
             <div class="row">
                 <div class="col-md-4 col-md-offset-4">
@@ -194,6 +325,7 @@
         </div>
     </div>
     <br/><br/>
+    -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/scripts.js"></script>

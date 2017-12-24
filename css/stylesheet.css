@@ -22,6 +22,15 @@ p {
     font-size: 12pt;
 }
 
+#message {
+    width: 80%;
+    height: 7em;
+}
+
+#subject {
+    width: 70%;
+}
+
 .arrow {
     font-weight: bold;
     position: absolute;
@@ -81,6 +90,11 @@ p {
 
 .fa-facebook {
     background: #3b5998;
+    color: #ffffff;
+}
+
+.fa-github {
+    background: #191919;
     color: #ffffff;
 }
 
