@@ -11,6 +11,11 @@ $(document).ready(function(){
             window.location.hash = target;
         });
     });
+
+    // Add email to contact
+    emailE=('jdf4921@' + 'rit.edu');
+    $("#email").html('<A href="mailto:' + emailE + '">' + emailE + '</a>');
+
 });
 
 // toggle class scroll
