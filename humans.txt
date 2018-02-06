@@ -1,7 +1,7 @@
 /* TEAM */
 
 Author: Joseph Farrell
-Site:
+Site: http://joefarrell.me
 Twitter: @Pithpifth
 Location: Endicott, NY
 
@@ -13,7 +13,7 @@ Name: name or url
 
 /* SITE */
 
-Last update: 2017/04/29
+Last update: 2018/02/06
 Standards: HTML5, CSS3
-Components: MaterializeCSS, jQuery
-Software: Atom, Photoshop CS6
+Components: Bootstrap, jQuery
+Software: Visual Studio Code, Photoshop CS6
