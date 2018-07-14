@@ -3,7 +3,7 @@
 Author: Joseph Farrell
 Site: http://joefarrell.me
 Twitter: @Pithpifth
-Location: Endicott, NY
+Location: Rochester, NY
 
 
 /* THANKS */
