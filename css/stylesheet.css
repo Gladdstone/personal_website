@@ -125,6 +125,10 @@ p {
     background: #80b9b3;
 }
 
+.italic {
+    font-style: italic;
+}
+
 /*scroll effect*/
 .navbar-trans {
     background-color: transparent;
