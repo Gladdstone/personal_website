@@ -23,9 +23,17 @@ p {
     font-size: 12pt;
 }
 
+#experiences {
+    padding-bottom: 2%;
+}
+
 #message {
     width: 80%;
     height: 7em;
+}
+
+#profile {
+    padding-bottom: 2%;
 }
 
 #subject {
@@ -87,6 +95,10 @@ p {
 
 .fa:hover {
     opacity: 0.7;
+}
+
+.fa-envelope {
+    color: #ffffff;
 }
 
 .fa-facebook {
@@ -202,9 +214,10 @@ p {
 }
 
 .parallax {
-    background-image: url("../assets/loz.jpg");
+    background-image: url("../assets/macbook.jpg");
 
     min-height: 1000px;
+    max-height: 100vh;
 
     background-attachment: fixed;
     background-position: center;
