@@ -49,6 +49,11 @@ p {
     color: #ffffff;
 }
 
+.bgblue {
+    background-color:#003b6f;
+    border-radius: 0.5rem;
+}
+
 .bold {
     font-weight: bold;
 }
