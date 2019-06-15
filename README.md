@@ -1,73 +1,68 @@
-![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
-===========
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[![Travis CI](https://travis-ci.org/Dogfalo/materialize.svg?branch=master)](https://travis-ci.org/Dogfalo/materialize) [![devDependency Status](https://david-dm.org/Dogfalo/materialize/dev-status.svg)](https://david-dm.org/Dogfalo/materialize#info=devDependencies) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Dogfalo/materialize?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+## Available Scripts
 
-[Materialize](http://materializecss.com/), a CSS Framework based on material design
+In the project directory, you can run:
 
-### Current Version : v0.98.1
+### `npm start`
 
-## Sass Requirements:
-- Ruby Sass 3.3+, LibSass 0.6+
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Supported Browsers:
-Chrome 35+, Firefox 31+, Safari 7+, IE 10+
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-## Changelog
-Bolded styling surrounded by emojis indicates a breaking change.
+### `npm test`
 
-- v0.98.2 (April 14th)
-  - Fixed collapsible preselect bug
-  - Fixed dropdown event bubbling bug
-  - Fixed range position inaccuracies
-  - Fixed feature discovery mobile styles
-  - Fixed carousel reinitialize bugs
-  - Fixed grid offset bug
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- v0.98.1 (March 21st)
-  - Fixed various select bugs on mobile devices
-  - Fixed small sideNav overlay bugs
-  - Fixed carousel resizing bug
-  - Fixed materialbox callback bug
-  - Range slider supports keyboard navigation
-  - Added XL breakpoint
-  - Added Pulse CSS effect
-  - Added Feature Discovery component
+### `npm run build`
 
-- v0.98.0 (January 25th)
-  - :no_good: **Standardized plugin option naming to camelcase (please check your plugin calls to make sure all the options are camelcase)** :no_good:
-  - Added FABs in image cards
-  - Added swipeable tabs
-  - Fixed carousel misalignment when switching quickly
-  - Fixed carousel resize bug where slide widths wouldn't change when changing window size
-  - Improved tabs compatibility with cards
-  - Fixed bug where using backspace to delete chips would navigate back in certain browsers
-  - Added autocomplete integration with chips
-  - Upgraded noUiSlider to version 9 with support for vertical sliders
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- v0.97.8 (October 30th, 2016)
-  - **Refactored Modal plugin**
-  - Tabs now supported in navbar
-  - Chips data can now be reinitiailized
-  - Minor side nav fixes
-  - FAB to toolbar component added
-  - Fixed dropdown options bug
-- v0.97.7 (July 23rd, 2016)
-  - Basic horizontal cards
-  - Carousel bug fixes and new features
-  - Updated sidenav styles and new component
-  - Meteor package now supports Sass
-  - Autocomplete form component
-  - Chips jQuery plugin
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## Testing
-We use Jasmine as our testing framework and we're trying to write a robust test suite for our components. If you want to help, [here's a starting guide on how to write tests in Jasmine](https://docs.google.com/document/d/1dVM6qGt_b_y9RRhr9X7oZfFydaJIEqB9CT7yekv-4XE/edit?usp=sharing)
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Contributing
-[Please read CONTRIBUTING.md for more information](CONTRIBUTING.md)
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-## Translation
-If you want to help us translate the documentation into other languages, please send us an email at materializeframework@gmail.com telling us which language team you want to join. We use [Transifex](https://www.transifex.com) as our localization platform and we will send you an invite there.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
